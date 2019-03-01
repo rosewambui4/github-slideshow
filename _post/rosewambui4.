@@ -1,0 +1,166 @@
+/*
+body{
+background-color: black;
+}
+*/
+
+
+/*header*/
+
+#header {
+  background-color: deepskyblue;
+  overflow: auto;
+}
+
+#header .logo {
+  display: inline-block;
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  margin: 5px;
+  background-color: cornsilk;
+  overflow: auto;
+}
+
+#header .menu {
+  display: inline-block;
+  /*    float:right; */
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  margin: 5px;
+  background-color: cornsilk;
+}
+
+#header .search {
+  display: inline-block;
+  float: right;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  margin: 5px;
+  background-color: cornsilk;
+}
+
+.logo {
+  color: black;
+}
+
+.menu {
+  color: black;
+}
+
+.search {
+  color: black;
+}
+
+
+/*main body*/
+
+#main {
+  background-color: coral;
+  overflow: auto;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+#suggestions {
+  background-color: cadetblue;
+}
+
+#main #movie {
+  display: inline-block;
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  margin: 5px;
+}
+
+#latest {
+  background-color: darkolivegreen;
+}
+
+#tv {
+  background-color: blueviolet;
+}
+
+
+/*footer*/
+
+#footer {
+  background-color: dimgrey;
+  overflow: auto;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+#description {
+  display: inline-block;
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  margin: 5px;
+  background-color: deeppink;
+  overflow: auto;
+  color: black;
+}
+
+#footer-menu #movie-menu {
+  display: inline-block;
+  float: right;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  margin: 5px;
+}
+
+#footer-menu #country-menu {
+  display: inline-block;
+  float: right;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  margin: 5px;
+}
+
+#footer-menu #free-movie-sites {
+  display: inline-block;
+  float: right;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  margin: 5px;
+  background-color: deeppink;
+}
+
+#footer-menu #help-menu {
+  display: inline-block;
+  float: right;
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  margin: 5px;
+}
+
+#footer-menu {
+  overflow: auto;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+#movie-menu {
+  background-color: deeppink;
+}
+
+#country-menu {
+  background-color: deeppink;
+}
+
+#free-movies-sites {}
+
+#help-menu {
+  background-color: deeppink;
+}
